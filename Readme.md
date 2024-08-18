@@ -1,6 +1,4 @@
-# ADSP 2023 Spring HW2
-
-## Frequency Sampling Method
+## Frequency Sampling
 ---
 ## Target: Compute the filter of Hs(F) = j * 2 * pi * F, -0.5 < F < 0.5,  with frequency sampling method
 - step1: Duplicate values of Hs(F), -0.5 < F < 0 to 0.5 < F < 1 ( Hs(F) = Hs(F+1) ).
@@ -13,7 +11,7 @@
 ## Results with k = 10
 ![](results_default.png)
 
-## Run the code
+## Execute
 - Environment: Python 3.8
 - Install packages: 
 ```
