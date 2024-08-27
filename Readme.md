@@ -1,6 +1,8 @@
 ## Frequency Sampling
 ---
-## Target: Compute the filter of Hs(F) = j * 2 * pi * F, -0.5 < F < 0.5,  with frequency sampling method
+## Target
+- Compute the filter of Hs(F) = j * 2 * pi * F, -0.5 < F < 0.5,  with frequency sampling method
+## Steps
 - step1: Duplicate values of Hs(F), -0.5 < F < 0 to 0.5 < F < 1 ( Hs(F) = Hs(F+1) ).
 - step2: Sample r0 on Hs(F) with interval 1/N, N = 2*k+1 (allowed transition band on k, k+1).
 - step3: Use inverse discrete Fourior transform to transform r0 to r1[n].
